@@ -1,0 +1,4 @@
+.PHONY: output-command-to-variable
+output-command-to-variable: 
+	$(eval VAR=$(shell echo hellp))
+	@echo My Variables value is: $(VAR)
